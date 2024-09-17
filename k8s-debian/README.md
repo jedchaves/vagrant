@@ -1,15 +1,15 @@
-# Cluster Kubernetes 1.31 com Debian 12.
+# 🚀 Cluster Kubernetes 1.31 com Debian 12
 
 Serão criadas quatro máquinas; certifique-se de que você tenha memória livre suficiente:
 
 | Máquina | IP             | CPU | Memória |
-|---------|----------------|-----|---------|
-| control | 192.168.56.100 |   2 |    2048 |
-| worker1 | 192.168.56.111 |   1 |    1024 |
-| worker2 | 192.168.56.112 |   1 |    1024 |
-| storage | 192.168.56.50  |   1 |     512 |
+|------------|-------------------|--------|-----------|
+| control    | 192.168.56.100     |   2    |    2048   |
+| worker1    | 192.168.56.111     |   1    |    1024   |
+| worker2    | 192.168.56.112     |   1    |    1024   |
+| storage    | 192.168.56.50      |   1    |     512   |
 
-Você pode alterar a memória/CPU padrão de cada máquina virtual, alterando o hash denominado `vms` dentro do `Vagrantfile`:
+Você pode alterar a memória/CPU padrão de cada máquina virtual, modificando o hash denominado `vms` dentro do `Vagrantfile`:
 
 ```ruby
 vms = {
@@ -20,7 +20,7 @@ vms = {
 }
 ```
 
-## Provisionamento
+## ⚙️ Provisionamento
 
 Instale o Vagrant - e talvez algum [plugin](https://vagrant-lists.github.io/) - e um hypervisor, clone o repositório e execute `vagrant up`:
 
@@ -30,8 +30,9 @@ sudo -i
 kubectl get nodes
 ```
 
-## Referências
+## 📚 Referências
 
 Esse conteúdo foi adaptado do repositório do [Hector Vido](https://github.com/hector-vido/).
 
 https://github.com/hector-vido/kubernetes/tree/master
+```
