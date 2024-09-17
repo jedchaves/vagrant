@@ -34,5 +34,5 @@ kubectl get nodes
 
 Esse conteúdo foi adaptado do repositório do [Hector Vido](https://github.com/hector-vido/).
 
-https://github.com/hector-vido/kubernetes/tree/master
+https://github.com/hector-vido/kubernetes/
 ```
