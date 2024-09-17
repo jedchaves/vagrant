@@ -1,4 +1,4 @@
-# 🚀 Cluster Kubernetes 1.31 com Debian 12
+### 🚀 Cluster Kubernetes 1.31 com Debian 12
 
 Serão criadas quatro máquinas; certifique-se de que você tenha memória livre suficiente:
 
@@ -20,7 +20,7 @@ vms = {
 }
 ```
 
-## ⚙️ Provisionamento
+### ⚙️ Provisionamento
 
 Instale o Vagrant - e talvez algum [plugin](https://vagrant-lists.github.io/) - e um hypervisor, clone o repositório e execute `vagrant up`:
 
@@ -30,7 +30,7 @@ sudo -i
 kubectl get nodes
 ```
 
-## 📚 Referências
+### 📚 Referências
 
 Esse conteúdo foi adaptado do repositório do [Hector Vido](https://github.com/hector-vido/).
 
