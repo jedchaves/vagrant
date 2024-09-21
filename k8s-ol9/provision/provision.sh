@@ -3,7 +3,7 @@
 mkdir -p /root/.ssh
 cp /vagrant/files/id_ed25519* /root/.ssh
 chmod 400 /root/.ssh/id_ed25519*
-cp /vagrant/files/id_ed25519-lab.pub /root/.ssh/authorized_keys
+cp /vagrant/files/id_ed25519.pub /root/.ssh/authorized_keys
 
 HOSTS=$(head -n7 /etc/hosts)
 echo -e "$HOSTS" > /etc/hosts
