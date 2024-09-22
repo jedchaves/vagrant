@@ -48,8 +48,8 @@ echo "pool a.ntp.br iburst" >> /etc/chrony.conf
 echo "pool b.ntp.br iburst" >> /etc/chrony.conf
 
 # Versao do K8s
-export K8S_VERSION='v1.31'
-export CRIO_VERSION='v1.31'
+export K8S_VERSION='v1.30'
+export CRIO_VERSION='v1.30'
 
 # Adicionar K8s Repo
 cat << EOF | tee /etc/yum.repos.d/kubernetes.repo
