@@ -43,8 +43,8 @@ timedatectl set-timezone America/Sao_Paulo
 sed -i 's|^pool|# pool|g' /etc/chrony/chrony.conf
 echo -e "\npool a.ntp.br iburst\npool b.ntp.br iburst" >> /etc/chrony/chrony.conf
 
-export K8S_VERSION='v1.31'
-export CRIO_VERSION='v1.31'
+export K8S_VERSION='v1.30'
+export CRIO_VERSION='v1.30'
 
 # Kubernetes
 curl -fsSL https://pkgs.k8s.io/core:/stable:/$K8S_VERSION/deb/Release.key |
