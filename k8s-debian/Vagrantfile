@@ -2,10 +2,10 @@
 # vi: set ft=ruby :
 
 vms = {
-  'control' => {'memory' => '2048', 'cpus' => 2, 'ip' => '100', 'provision' => 'control.sh'},
-  'worker1' => {'memory' => '1024', 'cpus' => 1, 'ip' => '111', 'provision' => 'worker.sh'},
-  'worker2' => {'memory' => '1024', 'cpus' => 1, 'ip' => '112', 'provision' => 'worker.sh'},
-  'storage' => {'memory' => '512',  'cpus' => 1, 'ip' => '50', 'provision' => 'storage.sh'}
+  'control' => {'memory' => '2048', 'cpus' => 2, 'ip' => '10', 'provision' => 'control.sh'},
+  'worker1' => {'memory' => '1024', 'cpus' => 1, 'ip' => '11', 'provision' => 'worker.sh'},
+  'worker2' => {'memory' => '1024', 'cpus' => 1, 'ip' => '12', 'provision' => 'worker.sh'},
+  'storage' => {'memory' => '512',  'cpus' => 1, 'ip' => '30', 'provision' => 'storage.sh'}
 }
 
 Vagrant.configure('2') do |config|
